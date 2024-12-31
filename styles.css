@@ -1,0 +1,80 @@
+/* Center container on the page */
+body {
+  margin: 0;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Horizontal centering */
+  justify-content: center; /* Vertical centering */
+  background-color: #2C3E50;
+}
+
+/* Center the dice container */
+.container {
+  width: 70%;
+  text-align: center;
+  margin-bottom: 20px; /* Space between dice and button */
+}
+
+/* Dice styling */
+.dice {
+  text-align: center;
+  display: inline-block;
+  margin: 0 10px; /* Add space between Player 1 and Player 2 */
+}
+
+/* Header styling */
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+/* Image styling */
+img {
+  width: 80%;
+}
+
+/* Button styling */
+.styled-button {
+  text-align: center;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4ECCA3; /* green background */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+/* Hover effect */
+.styled-button:hover {
+  background-color: #1a3926; /* Darker green on hover */
+  transform: scale(1.1); /* Slightly enlarge the button */
+  color: #fff;
+}
+
+/* Focus effect */
+.styled-button:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(221, 227, 233, 0.5);
+}
+
+/* Footer styling */
+footer {
+  margin-top: 20px;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
