@@ -8,7 +8,7 @@ function handleReload() {
     .setAttribute("src", randomImage1Source);
 
   var randomNumber2 = Math.floor(Math.random() * 6 + 1);
-  var randomImage2Source = "dice" + randomNumber2 + ".png";
+  var randomImage2Source = "images/dice" + randomNumber2 + ".png";
   var image2 = document
     .querySelectorAll("img")[1]
     .setAttribute("src", randomImage2Source);
